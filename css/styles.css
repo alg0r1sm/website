@@ -7,35 +7,40 @@ body {
 h1 {
     color: #00ADB5;
     font-size: 450%;
-    margin: 0px;
-    margin-top: 5%;
+    height: auto;
+    margin: 4% auto 0 auto;
     text-align: center;
     font-family: 'Courier New';
+    width: auto;
 }
 
 p {
     color: #EEEEEE;
     font-size: 175%;
-    margin:0px;
-    margin-top: 2%;
+    height: auto;
+    margin: 1% auto auto auto;
     text-align: center;
     font-family: 'Courier New';
+    width: auto;
 }
 
 a {
     color: #00ADB5;
-    margin: 0px;
     font-family: 'Courier New';
+    height: auto;
+    width: auto;
 }
 
 /**************************************************CLASS SELECTORS**************************************************/
 
-.content {
+.main-content {
     background-color: #393E46;
     border-radius: 2%;
+    display: inline-block;
+    height: auto;
     margin: 5%;
     padding: 5%;
-    
+    width: 80%;
 }
 
 .rounded {
@@ -46,8 +51,7 @@ a {
 
 #moss-img {
     display: block;
-    height: 175px;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    max-width: 30%;
+    height: auto;
 }
