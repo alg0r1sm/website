@@ -7,20 +7,35 @@ body {
 h1 {
     color: #00ADB5;
     font-size: 450%;
+    margin: 0px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Courier New';
 }
 
 p {
     color: #EEEEEE;
     font-size: 175%;
+    margin:0px;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Courier New';
 }
 
 a {
-    color: #EEEEEE;
+    color: #00ADB5;
+    margin: 0px;
+    font-family: 'Courier New';
 }
 
 /**************************************************CLASS SELECTORS**************************************************/
 
-.heading {
+.content {
+    background-color: #393E46;
+    border-radius: 2%;
+    margin: 5%;
+    padding: 5%;
+    
 }
 
 .rounded {
@@ -30,5 +45,9 @@ a {
 /**************************************************ID SELECTORS**************************************************/
 
 #moss-img {
+    display: block;
     height: 175px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
