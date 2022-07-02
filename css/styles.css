@@ -2,15 +2,37 @@
 
 body {
     background-color: #222831;
+    margin: 0;
+}
+
+.page {
     height: 100%;
     margin: 0;
     width: 100%;
 }
 
+.header {
+    background-color: #393E46;
+    border-radius: 5vw;
+    left: 50%;
+    padding: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+#moss-img {
+    border-radius: 3vh;
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 25vw;
+}
+
 h1 {
     color: #00ADB5;
     font-family: 'Courier New';
-    font-size: 450%;
+    font-size: 3.9vw;
     height: auto;
     margin: 5% 0 0 0;
     text-align: center;
@@ -20,37 +42,23 @@ h1 {
 p {
     color: #EEEEEE;
     font-family: 'Courier New';
-    font-size: 150%;
+    font-size: 1.4vw;
     height: auto;
     margin: 2% 0 0 0;
     text-align: center;
     width: auto;
 }
 
+.links {
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
+}
+
 a {
     color: #00ADB5;
     font-family: 'Courier New';
     height: auto;
-    width: auto;
     margin: 0;
-}
-
-/**************************************************CLASS SELECTORS**************************************************/
-
-.main-content {
-    background-color: #393E46;
-    border-radius: 5vh;
-    height: 55vh;
-    margin: 5%;
-    padding: 4%;
-}
-
-/**************************************************ID SELECTORS**************************************************/
-
-#moss-img {
-    border-radius: 4vw;
-    display: block;
-    margin: auto;
-    max-width: 32%;
-    height: auto;
+    width: auto;
 }
