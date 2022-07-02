@@ -32,14 +32,14 @@ a {
 
 .content {
     background-color: #393E46;
-    border-radius: 2vw;
-    margin: 5vw;
-    padding: 5vw;
+    border-radius: 2%;
+    margin: 5%;
+    padding: 5%;
     
 }
 
 .rounded {
-    border-radius: 15vw;
+    border-radius: 15%;
 }
 
 /**************************************************ID SELECTORS**************************************************/
