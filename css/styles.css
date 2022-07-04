@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.page {
+.heading {
     height: 100vh; width: 100vw;
     margin: 0;
     position: relative;
@@ -75,4 +75,16 @@ body {
 
 .shooting-star-2 {
     top: auto; right: 20%; bottom: 42%; left: auto;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #00ADB5;
+    border-width: 5px;
+    width: 5%;
+}
+
+.page {
+    position: relative;
 }
