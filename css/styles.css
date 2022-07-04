@@ -1,4 +1,80 @@
 body {
     background-color: #222831;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.page {
+    margin: 0;  
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.top-container {
+    position: absolute;
+    top: 35%; right: auto; bottom: auto; left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+}
+
+.heading-left {
+    display: inline-block;
+}
+
+.profile-pic {
+    width: 10rem;
+    border-radius: 100%;
+}
+
+.overlay {
+    background-color: #393E46;
+    position: absolute;
+    display: inline;
+    margin-left: 2%;
+    border-radius: 7%;
+    padding: 6%;
+    white-space: nowrap;
+
+}
+
+.heading-right {
+    padding: 2%;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    color: #00ADB5;
+    font-size: 4rem;
+    margin: 0 0 3% 0;
+    
+}
+
+.headline {
+    position: relative;
+    color: #EEEEEE;
+    font-size: 1rem;
+    margin: 3% 0 0 0;
+}
+
+.laptop {
+    width: 20rem;
+    display: block;
+    position: absolute;
+    top: auto; right: auto; bottom: 2%; left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.shooting-star {
+    width: 2rem;
+    position: absolute;
+}
+
+.shooting-star-1 {
+    top: 15%; right: auto; bottom: auto; left: 20%;
+}
+
+.shooting-star-2 {
+    top: auto; right: 20%; bottom: 42%; left: auto;
 }
