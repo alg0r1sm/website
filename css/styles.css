@@ -5,24 +5,24 @@ body {
 }
 
 .heading {
+    align-content: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .heading-row {
-    align-items: flex-end;
+    align-content: center;
     display: flex;
     flex-direction: row;
     height: fit-content;
-    justify-content: center;
-    width: 100vw;
+    justify-self: center;
 }
 
-.heading-row-top {
-    margin: 0 0 5% 0;
+.heading-row-1 {
+    
 }
 
 .profile-pic {
@@ -31,6 +31,9 @@ body {
     border-radius: 1.5vw;
     margin: 0 0.5% 0 0;
     width: 10rem;
+}
+
+.heading-text {
 }
 
 .title {
@@ -43,31 +46,20 @@ body {
     color: #EEEEEE;
     font-size: 1.5rem;
     margin: 0 0.5% 0 0.5%;
+    text-align: center;
 }
 
-.heading-row-bottom {
+.heading-row-2 {
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 4% 0 0 0;
+    margin: 5% 0 0 0;
+}
+
+.intro {
 }
 
 .shooting-star {
     display: inline;
     width: 2rem;
-}
-
-.shooting-star-1 {
-    margin: 0 5% 0 0;
-}
-
-.laptop {
-    width: 20rem;
-}
-
-.shooting-star-2 {
-    display: inline;
-    margin: 0 0 0 5%;
 }
 
 hr {
@@ -86,7 +78,7 @@ hr {
 
 .intro {
     align-items: center;
-    height: 60vh; width: 100vw;
+    height: 60vh; width: 100%;
 }
 
 .container-left {
@@ -119,7 +111,7 @@ p {
 }
 
 .skills {
-    height: fit-content; width: 100vw;
+    height: fit-content; width: 100%;
     flex-direction: column;
     float: left;
     justify-content: center;
@@ -127,7 +119,7 @@ p {
 
 .skill-overview-row {
     display: flex;
-    height: fit-content; width: 100vw;
+    height: fit-content; width: 100%;
     justify-content: center;
     margin: 5% 0 0 0;
 }
@@ -154,7 +146,7 @@ h3 {
 }
 
 .skill-specific-row {
-    height: fit-content; width: 100vw;
+    height: fit-content; width: 100%;
     justify-content: center;
     margin: 0;
 }
