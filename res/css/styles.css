@@ -4,6 +4,38 @@ body {
     margin: 0 0 0 0;
 }
 
+h1 {
+    color: #398AB9;
+    font-size: 100px;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    color: #1C658C;
+    font-size: 30px;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+h3 {
+    color: #398AB9;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+}
+
+li {
+    color: #1C658C;
+    display: inline;
+    text-align: center;
+    margin: 0 2% 0 2%;
+}
+
 .container {
     align-items: center;
     display: flex;
@@ -12,7 +44,8 @@ body {
     justify-content: center;
     width: 100vw;
 }
-.heading {
+
+.heading-box {
     align-items: center;
     background-color: #D8D2CB;
     border-radius: 5vh;
@@ -22,34 +55,78 @@ body {
     width: 30%;
 }
 
-.logo {
+.heading-logo {
     border-radius: 4vh;
     height: 150px;
     margin: 70px 0 0 0;
     width: 150px;
 }
 
-.heading-title {
-    color: #398AB9;
-    font-size: 100px;
-    margin: 30px 0 0 0;
-    text-align: center;
-}
-
-.heading-description {
-    color: #1C658C;
-    font-size: 30px;
-    margin: 30px 0 0 0;
-    text-align: center;
-}
-
-.link-bar {
+.heading-link-bar {
     display: flex;
     flex-direction: row;
     margin: 20px 0 0 0;
 }
 
-.link-bar-logo {
+.heading-link-bar-logo {
     height: 40px;
     margin: 0 10px 0 0;
+}
+
+.box {
+    align-items: center;
+    background-color: #D8D2CB;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+}
+
+.frontend-backend {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+}
+
+.frontend {
+    margin: 0 10% 0 0;
+}
+
+.backend {
+    margin: 0 0 0 10%;
+}
+
+.frontend-backend-logo {
+    width: 10rem;
+}
+
+.list-logo {
+    width: 2rem;
+}
+
+.contact {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-group-1 {
+    padding: 0 10% 0 0;
+    text-align: center;
+}
+
+.contact-group-2 {
+    padding: 0 0 0 10%;
+    text-align: center;
+}
+
+.bottom-button {
+    border-radius: 3vw;
+    padding: 5%;
+}
+
+.button-img {
+    margin: 0% 0 0 0.5%;
+    width: 1.1rem;
 }
