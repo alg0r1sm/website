@@ -1,25 +1,18 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #0E0E0E;
     font-family: 'Ubuntu', sans-serif;
-    margin: 0 0 0 0;
-}
-
-h1 {
-    color: #398AB9;
-    font-size: 100px;
-    margin: 30px 0 0 0;
-    text-align: center;
+    margin: 0;
 }
 
 h2 {
-    color: #1C658C;
-    font-size: 30px;
-    margin: 30px 0 0 0;
+    color: #0E0E0E;
+    font-size: 200%;
+    margin: 6% 0 0 0;
     text-align: center;
 }
 
 h3 {
-    color: #398AB9;
+    color: #0E0E0E;
     text-align: center;
 }
 
@@ -30,70 +23,86 @@ ul {
 }
 
 li {
-    color: #1C658C;
+    color: #0E0E0E;
     display: inline;
     text-align: center;
-    margin: 0 2% 0 2%;
+    margin: 0 5% 0 5%;
+}
+
+.li-left {
+    margin: 0 5% 0 0;
+}
+
+.li-right {
+    margin: 0 0 0 5%;
 }
 
 .container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 99vh;
     justify-content: center;
-    width: 100vw;
+    width: 99vw;
 }
 
 .heading-box {
     align-items: center;
-    background-color: #D8D2CB;
+    background-color: #E0E0E0;
     border-radius: 5vh;
     display: flex;
     flex-direction: column;
-    height: 55%;
-    width: 30%;
+    height: 50%;
+    width: 20%;
 }
 
 .heading-logo {
     border-radius: 4vh;
-    height: 150px;
-    margin: 70px 0 0 0;
-    width: 150px;
+    height: 200px;
+    margin: 20% 0 0 0;
+    width: 200px;
 }
 
 .heading-link-bar {
     display: flex;
     flex-direction: row;
-    margin: 20px 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .heading-link-bar-logo {
     height: 40px;
-    margin: 0 10px 0 0;
+    padding: 0 2px 0 2px;
 }
 
 .box {
     align-items: center;
-    background-color: #D8D2CB;
+    background-color: #E0E0E0;
     border-radius: 5vh;
     display: flex;
     flex-direction: column;
-    height: 90%;
-    width: 90%;
+    height: 70%;
+    width: 50%;
 }
 
 .frontend-backend {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 5% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 10% 0 0;
+    
 }
 
 .backend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 0 0 10%;
 }
 
@@ -102,31 +111,41 @@ li {
 }
 
 .list-logo {
-    width: 2rem;
+    width: 30px;
 }
 
 .contact {
     align-items: center;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .contact-group-1 {
-    padding: 0 10% 0 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20% 0 0;
     text-align: center;
 }
 
 .contact-group-2 {
-    padding: 0 0 0 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 20%;
     text-align: center;
 }
 
 .bottom-button {
-    border-radius: 3vw;
-    padding: 5%;
+    border-radius: 1vw;
+    padding: 10px;
+    text-align: center;
 }
 
 .button-img {
-    margin: 0% 0 0 0.5%;
-    width: 1.1rem;
+    margin: 0 0 0 0;
+    width: 30px;
 }
