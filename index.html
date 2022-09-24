@@ -43,17 +43,6 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     <div class="container">
-        <div class="heading-box">
-            <img class="heading-logo" src="res/img/logo.png" alt="heading-logo">
-            <h2>A Full-stack Developer</h2>
-            <div class="heading-link-bar">
-                <a href="https://github.com/alg0r1sm"><img class="heading-link-bar-logo" src="res/img/github-logo.png" alt="github-logo"></a>
-                <a href="https://hub.docker.com/u/alg0r1sm"><img class="heading-link-bar-logo" src="res/img/docker-logo.webp" alt="docker-logo"></a>
-                <a href="mailto:dev@alg0r1sm.com"><img class="heading-link-bar-logo" src="res/img/mail-logo.png" alt="mail-logo"></a>
-            </div>
-        </div>
-    </div>
-    <div class="container">
         <div class="box">
             <div class="frontend-backend">
                 <div class="frontend">
@@ -85,5 +74,38 @@
         </div>
     </div>
 </body>
+
+<footer>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "110375318497645");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</footer>
 
 </html>
