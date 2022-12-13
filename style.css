@@ -23,28 +23,36 @@ body {
 #top-container-left-section {
     align-items: center;
     background-color: #E0E0E0;
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 5vh;
+    padding: 2%;
     text-align: center;
 }
 
 #logo {
-    border-radius: 10px;
+    border-radius: 5vh;
     max-width: 200px;
 }
 
 #heading-text {
-    line-height: 30px;
+    line-height: 120%;
+}
+
+.contact-bar-item {
+    margin: 0;
 }
 
 .contact-bar-icon {
-    max-width: 40px;
+    max-width: 35px;
 }
 
 #top-container-right-section {
     color: #E0E0E0;
-    margin: 0 0 0 100px;
-    width: 50%;
+    margin: 0 0 0 5%;
+    width: 55%;
+}
+
+.top-container-right-section-heading {
+    line-height: 0;
 }
 
 #frontend-backend {
@@ -54,20 +62,20 @@ body {
 }
 
 .frontend-backend-icon {
-    width: 100px;
+    max-width: 90px;
 }
 
 #frontend {
     display: flex;
     flex-direction: column;
-    padding: 0 200px 0 0;
+    padding: 0 15% 0 0;
     
 }
 
 #backend {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 200px;
+    padding: 0 0 0 15%;
 }
 
 #skill-list {
@@ -83,7 +91,8 @@ body {
 }
 
 .list-icon {
-    width: 20px;
+    margin: 1%;
+    max-width: 30px;
 }
 
 .skill-list-item {
