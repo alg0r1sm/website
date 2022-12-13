@@ -1,96 +1,78 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AG0R1SM DEV</title>
-    <link rel="stylesheet" href="res/css/styles.css">
-    <link rel="icon" href="res/img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>DEV | AG0R1SM</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    </head>
 
-<body>
-    <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "110375318497645");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <div class="container">
-        <div class="heading-box">
-            <img class="heading-logo" src="res/img/logo.png" alt="heading-logo">
-            <h2>A<br> Full-stack Developer<br> & Systems Admin</h2>
-            <div class="heading-link-bar">
-                <a href="https://github.com/alg0r1sm"><img class="heading-link-bar-logo" src="res/img/github-logo.png" alt="github-logo"></a>
-                <a href="https://hub.docker.com/u/alg0r1sm"><img class="heading-link-bar-logo" src="res/img/docker-logo.webp" alt="docker-logo"></a>
-                <a href="mailto:dev@alg0r1sm.com"><img class="heading-link-bar-logo" src="res/img/mail-logo.png" alt="mail-logo"></a>
+    <body>
+        <div id="fb-root"></div>
+        <div id="fb-customer-chat" class="fb-customerchat"></div>
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "110375318497645");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                xfbml            : true,
+                version          : 'v15.0'
+                });
+            };
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div id="top-container" class="container">
+            <div id="top-container-left-section" class="top-container-section">
+                <img id="logo" src="img/logo.png" alt="Logo">
+                <h2 id="heading-text">A<br>Software Development<br>Company</h2>
+                <div id="contact-bar">
+                    <a href="mailto:dev@alg0r1sm.com"><img class="contact-bar-icon" src="img/mail.png" alt="E-Mail"></a>
+                    <a href="tel:+443301222187"><img class="contact-bar-icon" src="img/call.png" alt="Call"></a>
+                    <a href="https://github.com/alg0r1sm"><img class="contact-bar-icon" src="img/github.png" alt="GitHub"></a>
+                    <a href="https://facebook.com/alg0r1sm"><img class="contact-bar-icon" src="img/facebook.png" alt="Facebook"></a>
+                    <a href="https://wa.me/message/VGFAPAFAGK7PE1"><img class="contact-bar-icon" src="img/whatsapp.png" alt="Whatsapp"></a>
+                </div>
+            </div>
+            <div id="top-container-right-section" class="top-container-section">
+                <h2>Welcome to our Website!</h2>
+                <p>From web to mobile applications, we do it all. For all enquires, feel free to call, mail or use our chat option. We are active from 09:00 to 17:00 Mon-Fri.</p>
+                <h2>We specalise in both : </h2>
+                <div id="frontend-backend">
+                    <div id="frontend">
+                        <img class="frontend-backend-icon" src="img/frontend.png" alt="Frontend">
+                        <h3 class="frontend-backend-text">Front-end</h3>
+                    </div>
+                    <div id="backend">
+                        <img class="frontend-backend-icon" src="img/backend.png" alt="Backend">
+                        <h3 class="frontend-backend-text">Back-end</h3>
+                    </div>
+                </div>
+                <h2>We are proficent in but not limited to : </h2>
+                <ul id="skill-list">
+                        <li class="skill-list-item"><span><img class="list-icon" src="img/html.png" alt="HTML"></span>HTML</li>
+                        <li class="skill-list-item"><span><img class="list-icon" src="img/css.png" alt="CSS"></span>CSS</li>
+                        <li class="skill-list-item"><span><img class="list-icon" src="img/bootstrap.png" alt="Bootstrap"></span>Bootstrap</li>
+                        <li class="skill-list-item"><span><img class="list-icon" src="img/javascript.png" alt="JS"></span>Javascript</li>
+                        <li class="skill-list-item"><span><img class="list-icon" src="img/nodejs.png" alt="Node.js"></span>Node.js</li>
+                </ul>
+                <h2>Let us make your idea into a reality..</h2>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="box">
-            <div class="frontend-backend">
-                <div class="frontend">
-                    <img class="frontend-backend-logo" src="res/img/frontend.png" alt="frontend-img">
-                    <h3 class="frontend-backend-text">Front-end</h3>
-                </div>
-                <div class="backend">
-                    <img class="frontend-backend-logo" src="res/img/backend.png" alt="backend-img">
-                    <h3 class="frontend-backend-text">Back-end</h3>
-                </div>
-            </div>
-            <hr>
-            <ul>
-                <div class="skills-list">
-                    <li><span><img class="list-logo" src="res/img/html-5.png" alt="html-logo"></span>HTML</li>
-                    <li><span><img class="list-logo" src="res/img/css-3.png" alt="css-logo"></span>CSS</li>
-                    <li><span><img class="list-logo" src="res/img/bootstrap.png" alt="bootstrap-logo"></span>Bootstrap</li>
-                    <li><span><img class="list-logo" src="res/img/js.png" alt="js-logo"></span>Javascript</li>
-                    <li><span><img class="list-logo" src="res/img/nodejs.png" alt="nodejs-logo"></span>Node.js</li>
-                </div>
-            </ul>
-            <hr>
-            <div class="contact">
-                <div class="contact-group-1 contact-groups">
-                    <p>My Projects</p>
-                    <button class="bottom-button" type="button" onclick="window.location.href='https://github.com/alg0r1sm';"><span><img class="button-img" src="res/img/github-logo.png" alt="GitHub"></span>GitHub</button>
-                </div>
-                <div class="contact-group-2 contact-groups">
-                    <p>Get in Touch</p>
-                    <button class="bottom-button" type="button" onclick="window.location.href='mailto:dev@alg0r1sm.com';"><span><img class="button-img" src="res/img/mail-logo.png" alt="Email"></span>Email</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+    </body>
 
 </html>
