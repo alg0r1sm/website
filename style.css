@@ -79,6 +79,15 @@ body {
     line-height: 0;
 }
 
+#top-container-right-section-heading-1 {
+    line-height: 0;
+    text-align: center;
+}
+
+.top-container-right-section-strap {
+    text-align: center;
+}
+
 #frontend-backend {
     display: flex;
     flex-direction: row;
