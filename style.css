@@ -3,6 +3,30 @@ body {
     font-family: 'Anonymous Pro', monospace;
 }
 
+#nav-bar {
+    background-color: #E0E0E0;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+#nav-list {
+    border: #0E0E0E;
+    list-style-type: none;
+    margin: 1% auto 1% 80%;
+    width: 100%;
+}
+
+.nav-item {
+    color: #0E0E0E;
+    float: left;
+    font-weight: bold;
+    margin: 0 8% 0 0;
+}
+
 .container {
     display: flex;
     height: 97vh;
@@ -55,6 +79,15 @@ body {
     line-height: 0;
 }
 
+#top-container-right-section-heading-1 {
+    line-height: 0;
+    text-align: center;
+}
+
+.top-container-right-section-strap {
+    text-align: center;
+}
+
 #frontend-backend {
     display: flex;
     flex-direction: row;
@@ -105,7 +138,12 @@ body {
     text-align: center;
     width: fit-content;
 }
-
+/*
+.active {
+    background-color: #0E0E0E;
+    color: #E0E0E0;
+}
+*/
 @media (max-width: 980px) {
     #top-container {
         flex-direction: column;
